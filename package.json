@@ -1,0 +1,18 @@
+{
+  "name": "client_packer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.4.1",
+    "ini": "^2.0.0",
+    "md5-file": "^5.0.0",
+    "recursive-readdir-sync": "^1.0.6",
+    "wildcard-match": "^5.1.1"
+  }
+}
