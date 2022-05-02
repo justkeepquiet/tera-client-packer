@@ -12,7 +12,7 @@ Original Chinese launcher client packer for patch 92.03. Used with Nodejs.
 ## Note
 
 For packing files, a non-standard version of the LZMA format is used.   
-We used a modified version of the **elzma.exe** utility, the source codes of which are available here https://github.com/jk-q/easylzma
+We used a modified version of the **elzma.exe** utility, the source codes of which are available here https://github.com/justkeepquiet/easylzma
 
 ## Issues
 
