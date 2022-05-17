@@ -30,9 +30,9 @@ After that, the client files will be automatically packed into cab-archives and 
 
 After the process is completed, the version file will be automatically updated.
 
-### Patching the client after the change
+### Patching client after change
 
-After you have changed some files in the client, just replace those files in the client directory and start the `app.bat` again. The client will be re-hashed, all found changes will be packed into new cab-archives and automatically added to the database.
+After you have changed some files in the client, just replace files in the client directory and start the `app.bat` again. The client will be re-hashed, all found changes will be packed into new cab-archives and automatically added to the database.
 
 ## Note
 
