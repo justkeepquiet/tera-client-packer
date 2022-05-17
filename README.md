@@ -22,19 +22,17 @@ The path to the version file (**version.ini**) is specified in the `versionFile`
 
 ## Usage
 
-After all parameters are configured and the client is placed in the directory, run the `app.bat` file to create a first patch.
+After all is configured and your client files placed, run `app.bat` file to create a first patch.
 
-All files placed in client directory (`clientDirectory`) will be hashed, after which a hash database will be created in database directory (`databaseDirectory`), in which the checksums of all files will be entered.
+All files placed in client directory will be hashed, after which a hash database will be created in database directory, in which the checksums of all files will be entered.
 
-After that, the client files will be packed into cab-archives and placed in the patch directory (`patchDirectory`). The original client files are not deleted.
+After that, the client files will be automatically packed into cab-archives and placed in the patch directory. The original client files are not deleted or changed.
 
-After the process is completed, the version file (`versionFile`) will be automatically updated.
+After the process is completed, the version file will be automatically updated.
 
 ### Patching the client after the change
 
-After you have changed some files in the client, just replace those files in the client directory and start the `app.bat` again.
-
-The client will be re-hashed, all found changes will be packed into new cab archives and automatically added to the database.
+After you have changed some files in the client, just replace those files in the client directory and start the `app.bat` again. The client will be re-hashed, all found changes will be packed into new cab-archives and automatically added to the database.
 
 ## Note
 
