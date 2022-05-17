@@ -8,7 +8,7 @@ Original Chinese launcher client packer for patch 92. Used with Nodejs.
 2. Run command `npm install -g node-gyp` for install node-gyp.
 3. Download and unzip files from this repository to your folder.
 2. Open cmd, go to your folder and run command `npm install`.
-3. Open and edit **config.js** to set your paths to client files and patch plac.
+3. Open and edit **config.js** to set your paths to client files and patch place.
 4. Run `app.bat` to start hashing files and generating a patch database.
 
 ## File structure
