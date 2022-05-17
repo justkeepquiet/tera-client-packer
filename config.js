@@ -25,7 +25,7 @@ module.exports = {
 	/*
 	 * Upload directory path
 	 */
-	"patchDirectory": "./data/patch",
+	"patchDirectory": "D:/TERA_SERVER/www/frontend/patch/patch",
 
 	/*
 	 * Upload database directory path
