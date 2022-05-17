@@ -15,12 +15,12 @@ module.exports = {
 	/*
 	 * Temporary directory path
 	 */
-	"tempDirectory": "./data/temp",
+	"tempDirectory": "./temp",
 
 	/*
 	 * Client source package directory path
 	 */
-	"clientDirectory": "./data/client",
+	"clientDirectory": "D:/TERA_CLIENT",
 
 	/*
 	 * Upload directory path
