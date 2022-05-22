@@ -1,6 +1,7 @@
-# Tera 92 Launcher Client Packer and Updater
+# Tera Launcher Client Patcher and Updater
 
-Original Chinese launcher client packer for patch 92. Used with Nodejs.
+Tera Online client patcher and updater for patch 92 and 100.   
+The supported launcher available here: https://github.com/justkeepquiet/tera-launcher.
 
 ## Install
 
