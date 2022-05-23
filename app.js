@@ -203,8 +203,10 @@ try {
 	app.updateDatabase();
 	app.showResults();
 } catch (e) {
-	if (e.stack)
-		console.error(e.stack.match(/at App.([^\s]+)\s/)[1], "[Error]:", e.stack);
+	const stack = e.stack.match(/at App.([^\s]+)\s/);
+
+	if (stack)
+		console.error(stack[1], "[Error]:", e.stack);
 	else
 		console.error(e);
 }
