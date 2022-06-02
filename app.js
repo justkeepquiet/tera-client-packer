@@ -203,7 +203,7 @@ try {
 	app.updateDatabase();
 	app.showResults();
 } catch (e) {
-	const stack = e.stack.match(/at App.([^\s]+)\s/);
+	const stack = e.stack ? e.stack.match(/at App.([^\s]+)\s/) : null;
 
 	if (stack)
 		console.error(stack[1], "[Error]:", e.stack);
