@@ -25,17 +25,17 @@ module.exports = {
 	/*
 	 * Upload directory path
 	 */
-	"patchDirectory": "D:/TERA_SERVER/www/frontend/patch/patch",
+	"patchDirectory": "D:/TERA_SERVER/tera-api/public/patch/patch",
 
 	/*
 	 * Upload database directory path
 	 */
-	"databaseDirectory": "D:/TERA_SERVER/www/frontend/patch/db",
+	"databaseDirectory": "D:/TERA_SERVER/tera-api/public/patch/db",
 
 	/*
 	 * Upload version.ini file path
 	 */
-	"versionFile": "D:/TERA_SERVER/www/frontend/patch/version.ini",
+	"versionFile": "D:/TERA_SERVER/tera-api/public/patch/version.ini",
 
 	/*
 	 * Client package exclude conditions
