@@ -1,6 +1,6 @@
-# Tera 92 Launcher Client Packer and Updater
+# tera-client-packer
 
-Original Chinese launcher client packer for patch 92. Used with Nodejs.
+TERA Client patcher and updater for original BHS Launcher. Used with Node.js.
 
 ## Install
 
