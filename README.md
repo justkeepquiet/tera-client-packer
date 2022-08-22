@@ -1,7 +1,6 @@
-# Tera Launcher Client Patcher and Updater
+# Tera 92 Launcher Client Packer and Updater
 
-Tera Online client patcher and updater for patch 92 and 100.   
-The supported launcher available here: https://github.com/justkeepquiet/tera-launcher.
+Original Chinese launcher client packer for patch 92. Used with Nodejs.
 
 ## Install
 
@@ -23,7 +22,7 @@ The path to the version file (**version.ini**) is specified in the `versionFile`
 
 ## Usage
 
-After all is configured and your client files placed, run `app.bat` file to create a first patch.
+After all is configured and your client files placed, run `pack_all.bat` file to create a first patch.
 
 All files placed in client directory will be hashed, after which a hash database will be created in database directory, in which the checksums of all files will be entered.
 
@@ -33,7 +32,7 @@ After the process is completed, the version file will be automatically updated.
 
 ### Patching client after change
 
-After you have changed some files in the client, just replace files in the client directory and start the `app.bat` again. The client will be re-hashed, all found changes will be packed into new cab-archives and automatically added to the database.
+After you have changed some files in the client, just replace files in the client directory and start the `pack_all.bat` or `pack_S1Data.bat` (if you need to update DataCenter files only). The client will be re-hashed, all found changes will be packed into new cab-archives and automatically added to the database.
 
 ## Note
 

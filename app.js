@@ -7,6 +7,8 @@ const Version = require("./lib/version");
 const Database = require("./lib/database");
 const Client = require("./lib/client");
 
+const argv = process.argv.slice(2);
+
 /**
  * ONLY FOR DEBUG ISSUES!
  */
@@ -66,6 +68,13 @@ class App {
 		const total = fileInfoList.length;
 
 		fileInfoList.forEach((fileInfo, i) => {
+			const filter = argv[0] || null;
+
+			if (filter && fileInfo.path.indexOf(filter) !== 0) {
+				console.log("processDatabase [Filtred] (", i + 1, "/", total, "):", fileInfo.path);
+				return;
+			}
+
 			if (this.client.exists(fileInfo.path)) { // client file already exists
 				if (!SKIP_HASHING) {
 					fileHash = this.client.getHash(fileInfo.path);
