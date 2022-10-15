@@ -20,6 +20,27 @@ Information about the database version, lists and hashes of all files is located
 
 The path to the version file (**version.ini**) is specified in the `versionFile` parameter.
 
+#### Files and folders that must be removed from `clientDirectory` before packing:
+
+- \$Patch
+- \Binaries\cookies.dat
+- \S1Game\GuildFlagUpload
+- \S1Game\GuildLogoUpload
+- \S1Game\ImageCache
+- \S1Game\Logs
+- \S1Game\Screenshots
+- \S1Game\Config\S1Engine.ini
+- \S1Game\Config\S1Game.ini
+- \S1Game\Config\S1Input.ini
+- \S1Game\Config\S1Lightmass.ini
+- \S1Game\Config\S1Option.ini
+- \S1Game\Config\S1SystemSettings.ini
+- \S1Game\Config\S1TBASettings.ini
+- \S1Game\Config\S1UI.ini
+- \Launcher.exe
+- \local.db
+- \version.ini
+
 ## Usage
 
 After all is configured and your client files placed, run `pack_all.bat` file to create a first patch.
