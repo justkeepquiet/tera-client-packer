@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "better-sqlite3": "^7.4.1",
+    "better-sqlite3": "^9.2.1",
     "ini": "^2.0.0",
     "md5-file": "^5.0.0",
     "recursive-readdir-sync": "^1.0.6",
